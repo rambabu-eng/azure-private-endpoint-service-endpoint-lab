@@ -1,4 +1,5 @@
 Azure Storage Security Lab — Service Endpoints & Private Endpoints (Bicep)
+
 📌 Overview
 
 This project demonstrates how to secure an Azure Storage Account using Virtual Network controls, Service Endpoints, and Private Endpoints.
