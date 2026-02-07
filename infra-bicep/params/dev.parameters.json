@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "australiaeast"
+    },
+    "prefix": {
+      "value": "pese"
+    },
+    "environment": {
+      "value": "dev"
+    },
+    "vnetAddressPrefix": {
+      "value": "10.20.0.0/16"
+    },
+    "subnetServiceEndpointPrefix": {
+      "value": "10.20.1.0/24"
+    },
+    "subnetPrivateEndpointPrefix": {
+      "value": "10.20.2.0/24"
+    },
+    "subnetVmPrefix": {
+      "value": "10.20.3.0/24"
+    },
+    "storageAccountName": {
+      "value": "stpeseramsdemo001"
+    },
+    "storageSku": {
+      "value": "Standard_LRS"
+    },
+    "deployTestVm": {
+      "value": false
+    },
+    "vmAdminUsername": {
+      "value": "azureuser"
+    },
+    "vmAdminPassword": {
+      "value": ""
+    },
+    "allowedSshCidrs": {
+      "value": []
+    }
+  }
+}
